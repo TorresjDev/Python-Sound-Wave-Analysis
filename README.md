@@ -96,7 +96,7 @@ This project brings **sound waves** to life through **visualizations** and **dec
 
 ## 📚 **References**
 
-- Python Libraries: `NumPy`, `Matplotlib`
+- Python Libraries: `Wave`, `NumPy`, `Matplotlib`
 - Sound Physics Resources: [Wikipedia - Sound](https://en.wikipedia.org/wiki/Sound)
 
 **Happy Coding & Visualizing!** ✨

@@ -1,4 +1,3 @@
-from cProfile import label
 import numpy as np # Python library for numerical operations
 import matplotlib.pyplot as plt # Python library for plotting data
 

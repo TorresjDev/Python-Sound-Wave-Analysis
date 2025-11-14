@@ -4,9 +4,11 @@ A simple open-source project for analyzing and visualizing sound waves using Pyt
 
 ---
 
-## License
+## License 
 This project is licensed under the **Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)** license.  
 You may use, share, and modify the project **with attribution**, but **not for commercial purposes**.
+
+[![DOI](https://zenodo.org/badge/1096327265.svg)](https://doi.org/10.5281/zenodo.17607793)
 
 Full license text is available in the `LICENSE` file.
 

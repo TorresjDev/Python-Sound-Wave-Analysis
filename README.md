@@ -1,38 +1,48 @@
-#<div align="center">🌊 Sound Wave Analysis</div>
-<!-- scale to at most 300px wide, keep height proportional -->
-<p align="center">
-<img src="https://i.ibb.co/dJGCNwpT/sound-wave-analysis.png" alt="Sound Wave Analysis Logo" style="max-width:300px; height:auto;" />
+<div align="center">
+
+# 🌊 Sound Wave Analysis
+
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://python-sound-wave-analysis.streamlit.app/)
+
+<img src="https://i.ibb.co/dJGCNwpT/sound-wave-analysis.png" alt="Sound Wave Analysis Logo" width="300" />
+
+<p>
+<b>A professional tool for real-time audio signal processing and visualization.</b><br>
+Analyze waveforms, frequencies, and spectral data with precision.
 </p>
+
+</div>
+
+---
 
 ## 🚀 Features
 
-### 📊 Professional Visualization
-- **Waveform**: Interactive time-domain display.
-- **Frequency Spectrum**: Audacity-style spectrum analysis with log scale frequency and dB.
-- **Spectrogram**: Time-frequency intensity heatmap.
-- **Power Spectral Density (PSD)**: Energy distribution across frequencies.
-- **Phase Response**: Phase angle vs. frequency.
-- **Amplitude Histogram**: Distribution of signal amplitudes.
+### 📊 Advanced Visualization
+- **Interactive Graphs**: Zoom and pan through Waveforms, Spectrograms, and Phase Responses.
+- **Spectrum Analysis**: Professional-grade Frequency Spectrum (FFT) and Power Spectral Density (PSD) plots.
+- **Detailed Histograms**: Analyze amplitude distribution with precision.
 
-### 🔬 Detailed Analysis
-- **Audio Metrics**: Sample rate, duration, channels, RMS dB, dynamic range.
-- **Harmonic Detection**: Identifies fundamental frequency and up to 5 overtones.
-- **Speed of Sound Calculator**: Real-time calculator for various media (Air, Water, Steel, etc.) with temperature adjustment.
+### 🔬 Signal Analysis
+- **Audio Metrics**: Calculate RMS, dynamic range (dB), and peak amplitude.
+- **Harmonic Detection**: Automatically identify fundamental frequencies and overtones.
+- **Physics Calculator**: Built-in speed of sound calculator for various media (Air, Water, Steel) with temperature adjustments.
 
 ### 🛠️ Key Capabilities
-- **Multi-Format Support**: Upload WAV, MP3, or FLAC files (auto-converted).
-- **Audio Playback**: Listen to your audio directly in the browser.
-- **Interactive UI**: Native Dark/Light mode support (toggles via Streamlit Settings).
-- **Export Options**: Download analysis data as CSV or a text summary.
+- **Multi-Format Support**: Auto-converts WAV, MP3, and FLAC inputs.
+- **Browser Playback**: Listen to uploaded audio tracks instantly.
+- **Export Data**: Download analysis results as CSV or text summaries.
+
+---
 
 ## 🛠️ Tech Stack
 
 - **Frontend**: [Streamlit](https://streamlit.io/)
+- **Processing**: [NumPy](https://numpy.org/), [SciPy](https://scipy.org/), [Pydub](https://github.com/jiaaro/pydub)
 - **Visualization**: [Plotly](https://plotly.com/python/)
-- **Audio Processing**: [NumPy](https://numpy.org/), [SciPy](https://scipy.org/), [Pydub](https://github.com/jiaaro/pydub)
-- **Deployment**: Streamlit Cloud
 
-## 📦 Installation & Local Development
+---
+
+## 📦 Installation
 
 1. **Clone the repository:**
    ```bash
@@ -44,38 +54,19 @@
    ```bash
    pip install -r requirements.txt
    ```
-   *Note: For MP3/FLAC support, ensure you have [ffmpeg](https://ffmpeg.org/) installed on your system.*
+   *Note: [ffmpeg](https://ffmpeg.org/) is required for MP3/FLAC support.*
 
-3. **Run the app:**
+3. **Run the application:**
    ```bash
    streamlit run streamlit_app.py
    ```
 
-4. **Open in browser:**
-   The app will automatically open at `http://localhost:8501`.
-
-## ☁️ Deployment
-
-### Deploying to Streamlit Cloud
-
-1. Push your code to GitHub.
-2. Sign in to [Streamlit Cloud](https://share.streamlit.io/).
-3. Click **"New App"**.
-4. Select your repository (`TorresjDev/Python-Sound-Wave-Analysis`), branch (`main`), and main file (`streamlit_app.py`).
-5. Click **"Deploy"**.
-
-Streamlit Cloud will automatically detect `packages.txt` (if added for ffmpeg) and `requirements.txt` to install dependencies.
-
-## 🧪 CI/CD
-
-This project uses **GitHub Actions** for continuous integration:
-- **Python Linting**: Checks for syntax errors and coding standards.
-- **Dependency Test**: Verifies that `requirements.txt` installs correctly.
-- **Streamlit Config Check**: Ensures the app configuration is valid.
+---
 
 ## 📜 License
 
-This project is licensed under the CC BY-NC 4.0 License.
+This project is licensed under the **CC BY-NC 4.0 License**.
 
----
-**Created by [TorresjDev](https://github.com/TorresjDev)**
+<div align="center">
+  <sub>Created by <a href="https://github.com/TorresjDev">TorresjDev</a></sub>
+</div>

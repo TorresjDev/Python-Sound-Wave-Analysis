@@ -1,9 +1,8 @@
 # 🌊 Sound Wave Analysis
 
-A professional, web-based tool for analyzing and visualizing audio files. Built with **Streamlit** and **Plotly**, this application provides physics-grade analysis of sound waves, supporting WAV, MP3, and FLAC formats.
+<!-- scale to at most 300px wide, keep height proportional -->
+<img src="https://i.ibb.co/dJGCNwpT/sound-wave-analysis.png" alt="Sound Wave Analysis Logo" style="max-width:300px; height:auto;" />
 
-![App Screenshot](https://raw.githubusercontent.com/TorresjDev/Python-Sound-Wave-Analysis/main/assets/app_preview.png)
-*(Note: Replace with actual screenshot path once pushed)*
 
 ## 🚀 Features
 

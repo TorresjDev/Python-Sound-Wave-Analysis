@@ -1,8 +1,8 @@
-# 🌊 Sound Wave Analysis
-
+#<div align="center">🌊 Sound Wave Analysis</div>
 <!-- scale to at most 300px wide, keep height proportional -->
+<p align="center">
 <img src="https://i.ibb.co/dJGCNwpT/sound-wave-analysis.png" alt="Sound Wave Analysis Logo" style="max-width:300px; height:auto;" />
-
+</p>
 
 ## 🚀 Features
 

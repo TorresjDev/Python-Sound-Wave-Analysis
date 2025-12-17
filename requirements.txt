@@ -1,0 +1,19 @@
+# Core dependencies for Sound Wave Analysis
+numpy>=1.21.0
+matplotlib>=3.5.0
+scipy>=1.7.0
+
+# Enhanced user interface (CLI)
+keyboard>=0.13.5
+
+# Streamlit Web App
+streamlit>=1.29.0
+plotly>=5.18.0
+
+# Audio format support (MP3, FLAC)
+pydub>=0.25.1
+
+# Development dependencies (optional)
+# pytest>=6.0.0
+# black>=21.0.0
+# flake8>=3.9.0
